@@ -59,7 +59,7 @@ public class ValidationUtilsTest {
 
     @Test
     public void invalidIsbn13() {
-        String isbn = "5885250576";
+        String isbn = "5885250576628";
         Assert.assertFalse(ValidationUtils.isValidISBN13(isbn));
     }
 
